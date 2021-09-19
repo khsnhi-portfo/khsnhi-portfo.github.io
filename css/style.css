@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 200;
+	color: #072a51 !important;
+}
+h1, h2{
+	font-weight: 700 !important;
+}
+h3, h4, h5{
+	font-weight: 400 !important;
+}
+p, a{
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+hr{
+	width: 90% !important;
+	height: 2px!important;
+	color: #3e92cf!important; 
+	margin: 2% auto!important;
+}
+header{
+	justify-content: center;
+	align-items: center;
+/*	position: fixed;*/
+	top: 0;
+/*	background: #3e92cf; */
+	width: 100%;
+	z-index: 999;
+}
+.logo a{
+	text-decoration: none;
+	color: #072a51;
+	font-size: 2rem;
+	font-weight:700;
+	transition: all 0.1s;
+}
+.logo a:hover{
+	color: #fde183;
+/*	font-style: italic;*/
+	letter-spacing: 0.2em;
+}
+.justify-content{
+	justify-content: center;
+	align-items: center;
+}
+.menu a{
+	padding: 0 16px;
+	text-decoration: none;
+	color: #072a51;
+	font-size: 18px;
+	transition: all 0.2s;
+}
+.menu a:hover {
+	color: #fde183;
+/*	font-style: italic;*/
+	letter-spacing: 0.3em;
+}
+.navv{
+	float:right;
+}
+
+@media only screen and (max-width : 578px){
+	.navv a{
+		width: 100%;
+	}
+	.navv a h4{
+		float: right;
+	}
+	.work-intro h1{
+		margin-top: 10%;
+	}
+	.menu a{
+		padding: 4px 16px;
+	}
+	
+}
+/*headerrrrrrrrrrr*/
+
+.about{
+	height: 100%;
+	width: 100%;
+}
+.abt-content{
+	height: 100%;
+}
+/*skill*/
+.skillbar-item3 p{
+	text-align: left;
+	padding: 5px 0px;
+}
+
+
+
+.skillbarr {
+  	width: 100%;
+  	background-color: #fde183;
+	border-radius: 20px;
+	box-shadow: 2px 2px 0;
+	margin-bottom: 20px;
+	padding: 5px
+}
+
+.skills {
+  	text-align: right;
+  	padding:  5px 10px;
+  	color: white;
+	border-radius: 20px;
+}
+
+.skill1 {width: 80%; background-color: #3e92cf;}
+.skill2 {width: 70%; background-color: #3e92cf;}
+.skill3 {width: 50%; background-color: #3e92cf;}
+/*.skill4 {width: 60%; background-color: #3e92cf;}*/
+/*abouttttttttttt*/
+
+/*workkkkkkkkkkkk*/
+.koisen{
+	position: relative;
+}
+
+
+.work-img-center{
+	margin: auto;
+	width: 70%;
+	
+}
+.work-img-center img{
+/*	box-shadow: 0px 3px 20px #072a51 ; */
+	box-shadow: rgba(7, 42, 81, 0.3) 0px 2px 8px 0px;
+	transition: all 0.3s;
+}
+.work-img-center img:hover{
+	box-shadow: 0px 5px 20px #fde183;
+	box-shadow: rgba(253, 225, 131, 1) 0px 2px 8px 0px;
+}
+.work-img-center p{
+	color: #3e92cf;
+}
+/*workkkkk*/
+
+/*nodoooooo*/
+.nodo-content{
+	height: 100%;
+}
+.nodo-content a{
+	text-decoration: none;
+	color: #3e92cf;
+	transition: all 0.2s;
+}
+.nodo-content a:hover{
+	color: #fde183;
+	letter-spacing: 0.2rem;
+}
+/*nodoooooo*/
+
+/*formmm*/
+.form{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.form input, .form textarea{
+	width: 50%;
+	margin: 10px;
+	padding: 7px;
+	font-size: 1em;
+}
+
+.form-send{
+	background:none;
+	border: none;
+	border: 2px solid #3e92cf;
+	border-radius: 20px;
+	color: #3e92cf;
+	font-weight: bolder;
+	transition: all 0.3s;
+}
+
+.form-send:hover{
+	border: 2px solid #3e92cf;
+	background: #3e92cf;
+	color: #ffffff;
+}
+/*formmmmm*/
+
+.contact{
+	color: white;
+	transition: all 0.5s;
+}
+.contact:hover{
+	color: #072a51;
+}
+/*contact*/
+footer{
+	background: #072a51; 
+	padding: 2rem 0;
+}
+
+footer .logo a{ 
+	color: #fde183;
+	opacity: 0.9;
+}
+footer .logo a:hover{
+	color:#fff5cb;
+}
+footer .linkk{
+	float: right;
+}
+footer .link p{
+	padding: 0 16px;
+	text-align: right;
+}
+footer .link a{
+	text-decoration: none;
+	padding: 0 16px;
+	color: #fde183;
+	transition: all 0.3s;
+}
+footer .link a:hover{
+	letter-spacing: 0.2rem;
+	color:#fff5cb;
+}

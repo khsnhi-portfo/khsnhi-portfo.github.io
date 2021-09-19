@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+a, a:visited {
+	text-decoration: none; 
+	color:#894D39
+}
+.body {
+	font-family: didact-gothic; 
+	font-style: normal; 
+	font-weight: 400;
+	margin: 0px
+}
+.total {
+	width: 100%; 
+	margin: 0px
+}
+.header {
+	width: 100%; 
+	height: 60px; 
+	padding: 10px; 
+	background: #ECD7C4; 
+	position: fixed
+}
+.header img{
+	width: 200px; 
+	float: left
+}
+.header ul{
+	float: right; 
+	padding-right: 10px; 
+	color: #894D39
+}
+li{
+	display: inline; 
+	padding: 10px; 
+	font-size: 20px; 
+	font-weight:bold
+}
+.intro{
+	height: 450px; 
+	padding: 100px; 
+	text-align: center; 
+	background-image: url(background2.jpg); 
+	background-position:center; 
+	background-size: cover
+}
+.in_intro{
+	width: 600px;
+	margin: auto;
+	padding-top: 0px
+}
+#about_us{
+	padding: 50px;
+	background:#894D39
+}
+#products{
+	padding: 50px; 
+	background:#cb8e6c
+}
+.in_products{
+	width: 600px; 
+	margin: auto;
+	color: #FFFFFF
+}
+#contact{
+	padding: 50px;
+	width: 600px; 
+	margin: auto;
+	color: #894D39
+}
+#contact ul{
+	width: 600px; 
+	margin: auto; 
+	justify-content: space-between;
+	display: flex; 
+	font-size: 20px;
+	color:#894D39
+}
+#contact p{
+	margin-bottom: 50px;
+}
+p{
+	font-size: 20px
+}
+.footer{
+	height: 60px; 
+	padding: 10px; 
+	background: #ECD7C4; 
+	text-align: center;
+	color: #894D39
+}
+
+
+
