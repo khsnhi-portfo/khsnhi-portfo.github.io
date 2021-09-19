@@ -158,6 +158,19 @@ header{
 	letter-spacing: 0.2rem;
 }
 /*nodoooooo*/
+/*ọthers*/
+.others a{
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	color: #072a51;
+	transition: all 0.2s;
+}
+.others a:hover{
+	color: #3e92cf ;
+	letter-spacing: 0.2rem;
+}
+/*ọthers*/
 
 /*formmm*/
 .form{
